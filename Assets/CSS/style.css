@@ -346,25 +346,25 @@ a {font-size: var(--paragraph);}
   margin-top: 6rem;
 }
 
-/* Podcast Section */
+/* Article Section */
 
-.header__pd {
+.header__post {
   text-align: center;
 }
 
-/* Articles Section */
+/* Podcast Section */
 
-.section__post {
+.section__pd {
   background-color: var(--dark-color);
   color: #fff;
   height: auto;
 }
 
-.section__post .card:hover {
+.section__pd .card:hover {
   box-shadow: 0px 5px 10px var(--transparent-primary-color); 
 }
 
-.header__post {
+.header__pd {
   text-align: center;
 }
 
@@ -374,7 +374,6 @@ a {font-size: var(--paragraph);}
   text-align: center;
 }
 
-.section__books h4,
 .section__books p {
   text-align: left;
 }
@@ -387,6 +386,7 @@ a {font-size: var(--paragraph);}
 
 .form {
   width: 100%;
+  height: auto;
 }
 
 .form-group input {
@@ -493,7 +493,7 @@ a {font-size: var(--paragraph);}
     text-align: left;
   }
 
-  .article__pd-content {
+  .article__post-content {
     display: grid;
     grid-template-columns: 3fr 5fr;
     grid-template-areas: 'img aside';
@@ -507,6 +507,11 @@ a {font-size: var(--paragraph);}
   .section__sub {
     grid-area: aside;
     align-self: center; 
+  }
+
+  .section__books h4,
+  .section__books p {
+    text-align: left;
   }
 
   .section__subscribe {
@@ -622,7 +627,7 @@ a {font-size: var(--paragraph);}
     outline: none
   }
 
-  .article__pd-content {
+  .article__post-content {
     grid-template-columns: 3fr 5fr 0.5fr;
     grid-template-areas: 'img aside .'; 
   }
