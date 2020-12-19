@@ -1,0 +1,23 @@
+{
+  "name": "Podcast_Blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chumex412/Podcast_Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chumex412/Podcast_Blog/issues"
+  },
+  "homepage": "https://github.com/chumex412/Podcast_Blog#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
