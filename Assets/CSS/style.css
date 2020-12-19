@@ -226,7 +226,7 @@ a {font-size: var(--paragraph);}
 
 .nav {
   position: fixed;
-  left: -200px;
+  left: -250px;
   top: 0;
   display: none;
   height: 100%;
@@ -245,7 +245,7 @@ a {font-size: var(--paragraph);}
 .nav__menu-list {
   padding-top: 2.5rem;
   min-height: 10%;
-  width: 200px; 
+  width: 250px; 
 }
 
 .nav__menu-list:last-child {
@@ -303,6 +303,7 @@ a {font-size: var(--paragraph);}
 }
 
 .nav .input { 
+  padding: 0.5rem 0.5rem; 
   background-image: url(../Images/search-icon-sm.svg);
   background-repeat: no-repeat;
   background-size: 20% 20px;
